@@ -7,5 +7,4 @@
 * HTML5
 * SCSS
 * Travis
-* Service Workers
 * Webpack
