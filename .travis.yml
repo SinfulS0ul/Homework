@@ -20,10 +20,6 @@ before_install:
 install:
   - npm i
 
-cache:
-  directories:
-    - node_modules
-
 script:
   - npm run lint
   - npm run test
