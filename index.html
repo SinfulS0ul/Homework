@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="src/css/style.css">
+  <title>Homework 1</title>
+</head>
+
+<body>
+  <div class="menu">
+    <div class="menu__sorting">
+      <span class="menu__sorting__title">Сортування</span>
+      <button class="menu__sorting__by-name">За іменем</button>
+      <button class="menu__sorting__by-surname">За прізвищем</button>
+      <button class="menu__sorting__by-rate">За Оцінкою</button>
+    </div>
+    <div class="menu__rating">
+      <span class="menu__rating__title">Список учнів</span>
+      <button class="menu__rating__max-rate">Максимальна оцінка</button>
+      <button class="menu__rating__min-rate">Мінімальна оцінка</button>
+      <button class="menu__rating__avg-rate">Середня оцінка</button>
+      <ul class="menu__rating__rate-list"></ul>
+    </div>
+    <div class="menu__rate-percent">
+      <button class="menu__rate-percent_create">Модернізований масив</button>
+    </div>
+    <div class="menu__password-create">
+      <button class="menu__password-create__button">Згенерувати пароль</button>
+      <input placeholder="Введіть кількість символів" class="menu__password-create__symb-count">
+      <label>Наявність цифр<input class="menu__password-create__digit-include" type="checkbox"></label>
+      <label>Наявність символів<input class="menu__password-create__symb-include" type="checkbox"></label>
+    </div>
+    <div>
+        <span class="menu__password"></span>
+    </div>
+  </div>
+  <div class="list">
+    <ul class="list__students"></ul>
+    <ul class="list__rating"></ul>
+    <ul class="list__rate-percent"></ul>
+  </div>
+</body>
+<script src="src/js/main.js"></script>
+
+</html>
